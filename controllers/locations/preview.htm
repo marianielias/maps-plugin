@@ -1,0 +1,19 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li><a href="<?= Backend::url('fencus/maps/locations') ?>"><?= Lang::get('fencus.maps::lang.locations.menu_label') ?></a></li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+
+<?php if (!$this->fatalError): ?>
+
+    <div class="form-preview">
+        <?= $this->formRenderPreview() ?>
+    </div>
+
+<?php else: ?>
+
+    <p class="flash-message static error"><?= e($this->fatalError) ?></p>
+    <p><a href="<?= Backend::url('fencus/maps/locations') ?>" class="btn btn-default"><?= Lang::get('fencus.maps::lang.locations.return_to_location_list') ?></a></p>
+
+<?php endif ?>

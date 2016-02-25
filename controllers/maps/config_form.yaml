@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: fencus.maps::lang.maps.map
+
+# Model Form Field configuration
+form: $/fencus/maps/models/map/fields.yaml
+
+# Model Class name
+modelClass: Fencus\Maps\Models\Map
+
+# Default redirect location
+defaultRedirect: fencus/maps/maps
+
+# Create page
+create:
+    title: fencus.maps::lang.maps.create_map
+    redirect: fencus/maps/maps/update/:id
+    redirectClose: fencus/maps/maps
+
+# Update page
+update:
+    title: fencus.maps::lang.maps.edit_map
+    redirect: fencus/maps/maps
+    redirectClose: fencus/maps/maps
+
+# Preview page
+preview:
+    title: fencus.maps::lang.maps.preview_map

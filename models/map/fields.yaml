@@ -1,0 +1,25 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: fencus.maps::lang.maps.name
+        span: left
+        
+    height:
+        label: fencus.maps::lang.maps.height
+        span: left
+        default: 300px
+        tab: fencus.maps::lang.maps.dimensions
+
+    width:
+        label: fencus.maps::lang.maps.width
+        span: right
+        default: "100%"
+        tab: fencus.maps::lang.maps.dimensions
+
+    options:
+        label: Options
+        markers: locations
+        type: map-options

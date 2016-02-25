@@ -1,0 +1,12 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: fencus.maps::lang.maps.name
+        searchable: true
+
+    address:
+        label: fencus.maps::lang.maps.address
+        searchable: true

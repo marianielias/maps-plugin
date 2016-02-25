@@ -1,0 +1,14 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+maps:
+    label: fencus.maps::lang.maps.menu_label
+    view:
+        list: $/fencus/maps/models/map/columns.yaml
+        showSearch: true
+        toolbarButtons: add|remove
+    manage:
+        showSearch: true
+        list: $/fencus/maps/models/map/columns.yaml
+        form: $/fencus/maps/models/map/fields.yaml
