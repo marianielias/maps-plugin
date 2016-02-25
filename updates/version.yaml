@@ -3,3 +3,4 @@
     - create_maps_table.php
     - create_locations_table.php
     - create_map_location_table.php
+    - populate_tables.php
