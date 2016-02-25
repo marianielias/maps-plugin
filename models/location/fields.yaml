@@ -18,6 +18,7 @@ fields:
         type: address-locator
         span: left
 
-    content_html:
+    info_window_md:
         label: fencus.maps::lang.maps.info_window
-        type: richeditor
+        type: markdown
+        mode: split

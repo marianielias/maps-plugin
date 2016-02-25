@@ -42,11 +42,11 @@ class Map extends ComponentBase
     	{
     		if($apiKey)
     		{
-    			$this->html = $map->getHtmlMap($this->alias,$this->maps->locations);
+    			$this->html = $map->getHtmlMap($this->alias,$map->locations);
     		}
     		else
     		{
-    			$this->message = Lang::get('fencus.maps::lang.settings.key_not_defined');
+    			$this->message = Lang::get('fencus.googlemapswidgets::lang.settings.key_not_defined');
     		}
     	}
     	else

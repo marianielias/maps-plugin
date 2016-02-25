@@ -1,7 +1,7 @@
 <?php namespace Fencus\Maps\Models;
 
 use Model;
-
+use Markdown;
 /**
  * Location Model
  */
@@ -56,6 +56,10 @@ class Location extends Model
     public $morphMany = [];
     public $attachOne = [];
     public $attachMany = [];
-        
+    
+    public function beforeSave()
+    {
+    	$this->info_window = Markdown::parse(trim($this->info_window_md));
+    }
 
 }
