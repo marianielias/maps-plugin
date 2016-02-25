@@ -2,11 +2,12 @@
 
 use Model;
 use Fencus\GoogleMapsWidgets\Models\Settings as MapsSettings;
+use Fencus\GoogleMapsWidgets\Models\Map as MapModel;
 use Lang;
 /**
  * Map Model
  */
-class Map extends Model
+class Map extends MapModel
 {
 	
 	/*
