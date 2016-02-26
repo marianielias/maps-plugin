@@ -1,6 +1,6 @@
 # Fencus Maps Plugin
 
-A Locations and Maps management plugin.
+A locations and maps management plugin.
 
 ## Plugin Dependencies
 
@@ -22,8 +22,8 @@ This plugin depends on [**Fencus Google Maps Widgets Plugin**](https://octobercm
 ### A simple location manager
 * Uses the **Location Selector FormWidget** to select the position of the location on a map.
 * Uses the **Address Locator FormWidget** to find an address and is position on the **Location Selector FormWidget**.
-* Define aditional information to show on the map.
-* Select in witch maps you want to show the locations.
+* Define aditional information to display on the map.
+* Select in which maps you want to display the locations.
 
 ### A simple map manager
 * Uses the **Map Configurator FormWidget** to configure the options of a map and shows a preview of it LIVE:
