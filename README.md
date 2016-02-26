@@ -32,15 +32,15 @@ This plugin depends on [**Fencus Google Maps Widgets Plugin**](https://octobercm
  * Select the initial zoom of the map.
  * Enable/disable the scrollwheel to zoom in and out.
  * Enable/disable StreetView option.
- * Enable/disable Fullscreen option.
+ * Enable/disable fullscreen option.
  * Enable/disable the Map Type Selector.
  * Define the position of the Map Type Selector.
- * Define the Style of the Map Type Selector.
+ * Define the style of the Map Type Selector.
  * Select witch Map Type to use by default.
  * Select the available Map Types to use.
  * Enable/disable the Zoom Control.
  * Define the position of the Zoom Control.
-* Select witch locations to show on the map.
+ * Select which locations to display on the map.
 
 ### A map component
 * Uses the **Extensible Map Model** provided by the **Fencus Google Maps Widgets Plugin** to render a Map with its Locations.
