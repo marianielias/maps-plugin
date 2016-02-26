@@ -14,5 +14,10 @@ class CreateForeignRelations extends Migration
         	$table->foreign('location_id')->references('id')->on('fencus_maps_locations')->onDelete('cascade');
         });
     }
+    
+    public function down()
+    {
+    	
+    }
 
 }
