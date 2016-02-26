@@ -10,11 +10,11 @@ class SeedAllTables extends Seeder
 	public function run()
 	{
 		Location::create([
-				'name' => 'Lourve Museum',
+				'name' => 'Louvre Museum',
 				'address' => 'Louvre Museum, Paris, France',
 				'latlng' => '{"lat":48.8606111,"lng":2.3376439999999548}',
 				'info_window_md' => '[Louvre WebSite](http://www.louvre.fr/en)',
-				'info_window' => '<p><a href="http://www.louvre.fr/en">Louvre WebSite</a></p>',
+				'info_window' => '<p><a href="http://www.louvre.fr/en">Louvre website</a></p>',
 		]);
 		
 		Location::create([
