@@ -4,7 +4,7 @@ A Locations and Maps management plugin.
 
 ## Plugin Dependencies
 
-This plugin depends on **Fencus Google Maps Widgets Plugin**.
+This plugin depends on [**Fencus Google Maps Widgets Plugin**](https://octobercms.com/plugin/fencus-googlemapswidgets).
 
 ## Description
 
