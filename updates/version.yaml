@@ -3,4 +3,5 @@
     - create_maps_table.php
     - create_locations_table.php
     - create_map_location_table.php
+    - create_foreign_relations.php
     - populate_tables.php
