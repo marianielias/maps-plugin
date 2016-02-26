@@ -8,7 +8,7 @@ fields:
         label: fencus.maps::lang.maps.name
         span: left
 
-    location:
+    latlng:
         label: fencus.maps::lang.maps.location
         type: location-selector
         span: right

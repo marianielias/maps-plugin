@@ -14,7 +14,7 @@ class Location extends Model
 	use \October\Rain\Database\Traits\Validation;
 	public $rules = [
 			'name' => ['required', 'max:255'],
-			'location' => 'required', 'max:255',
+			'latlng' => 'required', 'max:255',
 	];
     /**
      * @var string The database table used by the model.
