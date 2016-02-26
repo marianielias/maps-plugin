@@ -12,6 +12,13 @@
         <div class="layout-row">
             <?= $this->formRender() ?>
         </div>
+        
+        <h3><?= Lang::get('fencus.maps::lang.locations.menu_label') ?></h3>
+        <hr>
+        <div class="layout-row">
+            <?= $this->relationRender('locations'); ?>
+        </div>
+        
         <div class="form-buttons">
             <div class="loading-indicator-container">
                 <button
