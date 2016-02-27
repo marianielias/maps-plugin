@@ -14,7 +14,7 @@ This plugin depends on [**Fencus Google Maps Widgets Plugin**](https://octobercm
 * Select the locations to show on a given map.
 * Show your map with its locations on the front-end of your site.
 
-* Find a demo [here](http://www.fencus.com.ar/demo).
+* Find a demo [here](http://www.flinger.com.ar/demos/googlemaps/).
 * This plugin aims to be an example of the funcionality of **Fencus Google Maps Widgets Plugin**.
 
 ## Contents of this plugin
