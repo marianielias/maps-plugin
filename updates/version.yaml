@@ -5,3 +5,4 @@
     - create_map_location_table.php
     - create_foreign_relations.php
     - populate_tables.php
+1.0.2: API Loader implementation
