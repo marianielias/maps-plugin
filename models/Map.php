@@ -1,18 +1,22 @@
 <?php namespace Fencus\Maps\Models;
 
-use Model;
 use Fencus\GoogleMapsWidgets\Models\Settings as MapsSettings;
-use Fencus\GoogleMapsWidgets\Models\Map as MapModel;
 use Lang;
+use Model;
+
 /**
  * Map Model
  */
-class Map extends MapModel
+class Map extends Model
 {
 	
 	/*
 	 * Validation
 	 */
+	public $implement = [
+			'Fencus.GoogleMapsWidgets.Behaviors.Map',
+	];
+	
 	use \October\Rain\Database\Traits\Validation;
 	public $rules = [
 			'name' => ['required', 'max:255'],

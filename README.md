@@ -43,4 +43,4 @@ This plugin depends on [**Fencus Google Maps Widgets Plugin**](https://octobercm
  * Select which locations to display on the map.
 
 ### A map component
-* Uses the **Extensible Map Model** provided by the **Fencus Google Maps Widgets Plugin** to render a Map with its Locations.
+* Uses the **Map Behavior** provided by the **Fencus Google Maps Widgets Plugin** to render a Map with its Locations.
