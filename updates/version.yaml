@@ -6,3 +6,4 @@
     - create_foreign_relations.php
     - populate_tables.php
 1.0.2: API Loader implementation
+1.0.3: Minor fixes

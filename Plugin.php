@@ -22,7 +22,7 @@ class Plugin extends PluginBase
             'description' => 'fencus.maps::lang.plugin.description',
             'author'      => 'Elias M. Mariani, Ariel M. Carrettoni',
             'icon'        => 'icon-map',
-        	'homepage'    => 'http://www.fencus.com.ar'
+        	'homepage'    => 'http://www.fencus.com'
         ];
     }
 
