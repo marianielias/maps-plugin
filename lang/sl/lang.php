@@ -66,10 +66,10 @@ return [
 		'success_delete' => 'Zemljevidi so odstranjeni.',
 	],
 	'map_component' => [
-		'name' => 'Map Component',
-		'description' => 'Shows a map.',
-		'map_property' => 'Map',
-		'map_not_defined' => 'Map not defined.',
+		'name' => 'Komponenta Zemljevid',
+		'description' => 'Prkaži kot zemljevid.',
+		'map_property' => 'Zemljevid',
+		'map_not_defined' => 'Zemljevid ni definiran.',
 	],
 	'locations' => [
 		'menu_label' => 'Lokacije',
