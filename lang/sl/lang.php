@@ -67,7 +67,7 @@ return [
 	],
 	'map_component' => [
 		'name' => 'Komponenta Zemljevid',
-		'description' => 'Prkaži kot zemljevid.',
+		'description' => 'Prikaži kot zemljevid.',
 		'map_property' => 'Zemljevid',
 		'map_not_defined' => 'Zemljevid ni definiran.',
 	],
